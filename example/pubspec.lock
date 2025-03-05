@@ -123,12 +123,11 @@ packages:
   camera_avfoundation:
     dependency: transitive
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "526ba6e3af1af74ef57e090e7a1b74d5e87e3f67"
-      url: "https://github.com/hpnvphuoc/camera_avfoundation.git"
-    source: git
-    version: "0.9.18"
+      name: camera_avfoundation
+      sha256: "3057ada0b30402e3a9b6dffec365c9736a36edbf04abaecc67c4309eadc86b49"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.9.18+9"
   camera_platform_interface:
     dependency: transitive
     description:

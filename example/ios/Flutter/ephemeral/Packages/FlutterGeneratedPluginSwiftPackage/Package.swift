@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "FlutterGeneratedPluginSwiftPackage", type: .static, targets: ["FlutterGeneratedPluginSwiftPackage"])
     ],
     dependencies: [
-        .package(name: "camera_avfoundation", path: "/Users/hpnvphuoc/.pub-cache/git/camera_avfoundation-526ba6e3af1af74ef57e090e7a1b74d5e87e3f67/ios/camera_avfoundation"),
+        .package(name: "camera_avfoundation", path: "/Users/hpnvphuoc/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.18+9/ios/camera_avfoundation"),
         .package(name: "path_provider_foundation", path: "/Users/hpnvphuoc/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.1/darwin/path_provider_foundation"),
         .package(name: "video_player_avfoundation", path: "/Users/hpnvphuoc/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.7.0/darwin/video_player_avfoundation"),
         .package(name: "integration_test", path: "/Users/hpnvphuoc/fvm/versions/3.27.0/packages/integration_test/ios/integration_test")

@@ -911,10 +911,8 @@ class CameraController extends ValueNotifier<CameraValue> {
     }
   }
 
-  Future<double> getCameraLensPosition(String camera) async {
-    print("DEBUGGING: camera $camera");
-    await CameraPlatform.instance.getCameraLensPosition(cameraId);
-    return 1.0;
+  Future<double> getCameraLenPosition(String camera) async {
+    return await CameraPlatform.instance.getCameraLenPosition(cameraId);
   }
 }
 

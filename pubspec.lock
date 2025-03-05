@@ -77,8 +77,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: "526ba6e3af1af74ef57e090e7a1b74d5e87e3f67"
+      ref: "7091c7c"
+      resolved-ref: "7091c7cc60ed54ec0b29ba650896b0cc31396646"
       url: "https://github.com/hpnvphuoc/camera_avfoundation.git"
     source: git
     version: "0.9.18"
@@ -86,8 +86,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: "805efb19f8eada68f8118847f221b1273cc616b8"
+      ref: b57c614
+      resolved-ref: b57c61454fb5b1c734fb8e4655e8977962e627cb
       url: "https://github.com/hpnvphuoc/camera_platform_interface.git"
     source: git
     version: "2.9.0"
