@@ -910,6 +910,12 @@ class CameraController extends ValueNotifier<CameraValue> {
       super.removeListener(listener);
     }
   }
+
+  Future<double> getCameraLensPosition(String camera) async {
+    print("DEBUGGING: camera $camera");
+    await CameraPlatform.instance.getCameraLensPosition(cameraId);
+    return 1.0;
+  }
 }
 
 /// A value that might be absent.
